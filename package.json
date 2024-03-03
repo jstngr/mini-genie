@@ -1,11 +1,11 @@
 {
   "name": "MiniGenie",
   "version": "0.0.1",
-  "description": "Personal page",
+  "description": "MiniGenie Shop",
   "main": "index.tsx",
   "author": "Tobias Justinger",
   "license": "MIT",
-  "homepage": "https://jstngr.github.io/mini-genie",
+  "homepage": "mini-genie.de",
   "private": true,
   "browserslist": {
     "production": [
