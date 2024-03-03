@@ -1,6 +1,7 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const Dotenv = require('dotenv-webpack');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = {
   devtool: 'source-map',
@@ -60,5 +61,10 @@ module.exports = {
       favicon: './src/assets/favicon.svg',
     }),
     new Dotenv(),
+    new CopyWebpackPlugin({
+      patterns: [
+        { from: 'CNAME', to: '' }, // Copy CNAME file to the root of the build directory
+      ],
+    }),
   ],
 };
