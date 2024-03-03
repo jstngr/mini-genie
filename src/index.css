@@ -34,5 +34,8 @@ h2 {
 h2 > span {
   font-style: italic;
   text-wrap: nowrap;
+}
+
+h2 > span > span {
   color: var(--secondary-color);
 }
