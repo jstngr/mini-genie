@@ -13,7 +13,8 @@ export default function App() {
           <h2>
             Our shop is coming soon <br />
             to help you {''}
-            <span>
+            <span className="Slogan">
+              <br />
               &quot;Raising the <span>future</span>&quot;
             </span>
           </h2>
