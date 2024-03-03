@@ -17,9 +17,22 @@
   flex-grow: 1;
 }
 
+@media (max-width: 600px) {
+  #root main {
+    padding: 2rem 2rem 2rem 2rem;
+  }
+}
+
 .Logo {
   height: 20rem;
+  max-height: 30dvh;
   width: auto;
+}
+
+@media (min-width: 600px) {
+  .Logo {
+    max-height: 50dvh;
+  }
 }
 
 a {
