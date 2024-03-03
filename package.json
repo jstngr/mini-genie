@@ -1,11 +1,11 @@
 {
-  "name": "jstngr",
+  "name": "MiniGenie",
   "version": "0.0.1",
   "description": "Personal page",
   "main": "index.tsx",
   "author": "Tobias Justinger",
   "license": "MIT",
-  "homepage": "https://jstngr.github.io/",
+  "homepage": "https://jstngr.github.io/mini-genie",
   "private": true,
   "browserslist": {
     "production": [
@@ -36,6 +36,7 @@
   },
   "dependencies": {
     "@emotion/styled": "^11.10.6",
+    "@fontsource/dancing-script": "^5.0.16",
     "@fontsource/plus-jakarta-sans": "^5.0.17",
     "@fontsource/poppins": "^5.0.8",
     "@fontsource/public-sans": "^4.5.12",

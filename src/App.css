@@ -7,37 +7,19 @@
 
 #root main {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   flex-direction: row;
+  flex-wrap: wrap-reverse;
+  row-gap: 2rem;
+  column-gap: 4rem;
+  padding: 2rem 2rem 82px 2rem;
   flex-grow: 1;
-  flex-wrap: wrap;
 }
 
-.PortraitSection {
-  width: 50%;
-  position: relative;
-  width: 40vw;
-  height: 40vw;
-  max-width: 400px;
-  max-height: 400px;
-  padding: 8px;
-  border-radius: 30% 70% 67% 33% / 30% 30% 70% 70%;
-  overflow: hidden;
-  background-color: var(--secondary-color);
-}
-
-.PortraitSection-portrait {
-  position: absolute;
-  z-index: 1;
-  border-radius: 20%;
-  height: 100%;
-  width: 100%;
-}
-
-.PortraitSection-portrait.background {
-  z-index: 0;
-  filter: blur(15px);
+.Logo {
+  height: 20rem;
+  width: auto;
 }
 
 a {
