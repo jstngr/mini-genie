@@ -7,7 +7,7 @@ import '@fontsource/poppins';
 import '@fontsource/dancing-script';
 import './index.css';
 import './i18n';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { HashRouter, Route, Routes } from 'react-router-dom';
 import PrivacyPolicy from 'privacy-policy';
 import { MantineProvider } from '@mantine/core';
 import '@mantine/core/styles.css';
@@ -17,11 +17,11 @@ const root = createRoot(domNode);
 
 root.render(
   <MantineProvider>
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/policy" element={<PrivacyPolicy />} />
         <Route path="*" element={<App />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   </MantineProvider>,
 );
