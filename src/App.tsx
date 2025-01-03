@@ -2,7 +2,7 @@ import React from 'react';
 import Header from 'components/header';
 import Giraff from 'assets/Giraff_only.svg';
 import './App.css';
-import { Anchor } from '@mantine/core';
+import { Anchor, Group } from '@mantine/core';
 import { Link } from 'react-router-dom';
 
 export default function App() {
@@ -18,9 +18,14 @@ export default function App() {
               Raising the <span>future</span>
             </span>
           </h2>
-          <Anchor component={Link} to="/policy">
-            Privacy Policy
-          </Anchor>
+          <Group>
+            <Anchor component={Link} to="/support">
+              Support
+            </Anchor>
+            <Anchor component={Link} to="/policy">
+              Privacy Policy
+            </Anchor>
+          </Group>
         </section>
         <section>
           <Giraff className="Logo" />
