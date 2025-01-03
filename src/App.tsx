@@ -2,6 +2,8 @@ import React from 'react';
 import Header from 'components/header';
 import Giraff from 'assets/Giraff_only.svg';
 import './App.css';
+import { Anchor } from '@mantine/core';
+import { Link } from 'react-router-dom';
 
 export default function App() {
   return (
@@ -11,13 +13,14 @@ export default function App() {
         <section>
           <h1>MiniGenie.</h1>
           <h2>
-            Our shop is coming soon <br />
-            to help you {''}
             <span className="Slogan">
               <br />
-              &quot;Raising the <span>future</span>&quot;
+              Raising the <span>future</span>
             </span>
           </h2>
+          <Anchor component={Link} to="/policy">
+            Privacy Policy
+          </Anchor>
         </section>
         <section>
           <Giraff className="Logo" />

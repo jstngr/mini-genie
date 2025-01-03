@@ -19,7 +19,7 @@ root.render(
   <MantineProvider>
     <HashRouter>
       <Routes>
-        <Route path="/policy" element={<PrivacyPolicy />} />
+        <Route path="/policy/*" element={<PrivacyPolicy />} />
         <Route path="*" element={<App />} />
       </Routes>
     </HashRouter>

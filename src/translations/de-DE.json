@@ -1,1 +1,64 @@
-{}
+{
+  "privacyPolicy": {
+    "title": "Datenschutzerklärung",
+    "effectiveDate": "Gültigkeitsdatum:",
+    "date": "16.12.2024",
+    "welcomeTitle": "Willkommen bei der Still App",
+    "welcomeText": "Willkommen bei der Still App (\"wir,\" \"unser,\" \"uns\"). Diese Datenschutzerklärung erklärt, wie wir Ihre Informationen sammeln, verwenden und schützen, wenn Sie unsere App nutzen.",
+    "section1": {
+      "title": "1. Informationen, die wir sammeln",
+      "description": "Unsere App sammelt oder verarbeitet keine persönlichen Daten direkt. Drittanbieter wie AdMob können jedoch bestimmte Informationen sammeln, einschließlich:",
+      "deviceInfo": {
+        "title": "Geräteinformationen:",
+        "text": "Wie Ihre Geräte-ID, Ihr Betriebssystem und Ihre IP-Adresse."
+      },
+      "usageData": {
+        "title": "Nutzungsdaten:",
+        "text": "Informationen über Ihre Interaktionen mit Anzeigen."
+      },
+      "locationData": {
+        "title": "Standortdaten:",
+        "text": "Ungefähre Position (z. B. Land oder Region) basierend auf Ihrer IP-Adresse."
+      }
+    },
+    "section2": {
+      "title": "2. Wie AdMob Ihre Informationen verwendet",
+      "description": "AdMob, ein Drittanbieter-Werbedienst, sammelt und verwendet Daten, um personalisierte und nicht-personalisierte Anzeigen bereitzustellen. Zu den gesammelten Daten können gehören:",
+      "demographicData": "Demografische Daten und Interessen für personalisierte Anzeigen.",
+      "contextualData": "Kontextuelle Informationen für nicht-personalisierte Anzeigen.",
+      "learnMore": "Weitere Informationen zu den Datenschutzrichtlinien von AdMob finden Sie hier:"
+    },
+    "section3": {
+      "title": "3. Ihre Wahlmöglichkeiten",
+      "description": "Sie haben die Möglichkeit, sich von personalisierter Werbung abzumelden:",
+      "android": {
+        "title": "Auf Android:",
+        "text": "Gehen Sie zu \"Einstellungen\" > \"Google\" > \"Anzeigen\" und aktivieren Sie \"Personalisierung von Anzeigen deaktivieren.\""
+      },
+      "ios": {
+        "title": "Auf iOS:",
+        "text": "Gehen Sie zu \"Einstellungen\" > \"Datenschutz\" > \"Werbung\" und aktivieren Sie \"Kein Ad-Tracking.\""
+      }
+    },
+    "section4": {
+      "title": "4. Datenaufbewahrung",
+      "description": "Wir sammeln oder speichern keine persönlichen Daten. AdMob speichert Daten gemäß seiner Datenschutzrichtlinie."
+    },
+    "section5": {
+      "title": "5. Sicherheit",
+      "description": "Wir verarbeiten oder speichern keine Daten, stellen jedoch sicher, dass AdMob die geltenden Datenschutzbestimmungen einhält."
+    },
+    "section6": {
+      "title": "6. Änderungen an dieser Datenschutzerklärung",
+      "description": "Wir können diese Datenschutzerklärung von Zeit zu Zeit aktualisieren. Alle Änderungen werden auf dieser Seite veröffentlicht."
+    },
+    "section7": {
+      "title": "7. Kontaktieren Sie uns",
+      "description": "Wenn Sie Fragen zu dieser Datenschutzerklärung haben, kontaktieren Sie uns bitte unter:"
+    }
+  },
+  "languageSelector": {
+    "label": "Wählen Sie Ihre Sprache",
+    "placeholder": "Sprache auswählen"
+  }
+}

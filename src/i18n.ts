@@ -9,18 +9,18 @@ i18n
   // for all options read: https://www.i18next.com/overview/configuration-options
   .init(
     {
-      debug: true,
+      debug: false,
       fallbackLng: 'en-GB',
       resources: {
         ...translations,
       },
       ns: 'translations',
-      keySeparator: false,
+      keySeparator: '.',
       pluralSeparator: '_',
     },
     () => {
       document.documentElement.setAttribute('lang', i18n.language);
-    }
+    },
   );
 
 i18n.on('languageChanged', (language) => {
