@@ -60,5 +60,43 @@
   "languageSelector": {
     "label": "Choose your language",
     "placeholder": "Select a language"
+  },
+  "support": {
+    "title": "Support",
+    "subtitle": "We’re here to help! If you have any questions or need assistance, you can find support below.",
+    "gettingStarted": {
+      "title": "Getting Started",
+      "description": "Here’s how you can get started with the app:",
+      "item1Title": "Download and Install",
+      "item1Description": "Ensure that you've installed the app from the App Store (iOS) or Google Play (Android).",
+      "item2Title": "Set Up Your Preferences",
+      "item2Description": "When you first open the app, you will go through a short welcome tour where you can set up preferences for tracking your baby’s feeding, sleep, and diaper changes.",
+      "item3Title": "Start Tracking",
+      "item3Description": "Begin adding your baby’s feeding, sleep, and diaper change data to start tracking milestones."
+    },
+    "troubleshooting": {
+      "title": "Troubleshooting",
+      "description": "If you encounter any issues with the app, try the following solutions:",
+      "item1Title": "App Not Loading",
+      "item1Description": "Try restarting the app. If that doesn't help, uninstall and reinstall the app from the App Store or Google Play.",
+      "item2Title": "Data Not Saving",
+      "item2Description": "Make sure your device has enough storage space. If the issue persists, please contact support.",
+      "item3Title": "Tracking Data Disappearing",
+      "item3Description": "Ensure that the app has the necessary permissions to run in the background, especially on iOS."
+    },
+    "contact": {
+      "title": "Contact Support",
+      "description": "If you're unable to find the answer to your problem or need additional help, feel free to reach out to us:",
+      "emailTitle": "Email",
+      "faqTitle": "FAQs",
+      "faqLinkText": "Frequently Asked Questions"
+    },
+    "feedback": {
+      "title": "Give Us Feedback",
+      "description": "We love hearing from our users! If you have suggestions or would like to provide feedback about the app, please don't hesitate to reach out.",
+      "provideTitle": "Provide Feedback",
+      "rateTitle": "Rate the App",
+      "rateDescription": "If you enjoy using the app, please consider leaving a review on the App Store or Google Play."
+    }
   }
 }

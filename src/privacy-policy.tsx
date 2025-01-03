@@ -15,7 +15,7 @@ import {
 import { useLocation, useNavigate } from 'react-router';
 
 const PrivacyPolicy = () => {
-  const { t, i18n } = useTranslation(); // Initialize translation hook
+  const { t, i18n } = useTranslation();
   const navigate = useNavigate();
 
   const location = useLocation();
@@ -28,12 +28,11 @@ const PrivacyPolicy = () => {
   };
 
   useEffect(() => {
-    setLanguageFromHash(); // Set initial language
+    setLanguageFromHash();
   }, [location.pathname]);
 
-  // Function to handle language change
   const handleLanguageChange = (language) => {
-    navigate(`${language.split('-')[0]}`); // Update the hash in the URL
+    navigate(`${language.split('-')[0]}`);
   };
 
   return (

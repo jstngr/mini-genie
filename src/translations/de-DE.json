@@ -60,5 +60,43 @@
   "languageSelector": {
     "label": "Wählen Sie Ihre Sprache",
     "placeholder": "Sprache auswählen"
+  },
+  "support": {
+    "title": "Support",
+    "subtitle": "Wir sind hier, um zu helfen! Wenn Sie Fragen haben oder Unterstützung benötigen, finden Sie unten die Hilfe.",
+    "gettingStarted": {
+      "title": "Erste Schritte",
+      "description": "So können Sie mit der App beginnen:",
+      "item1Title": "Herunterladen und Installieren",
+      "item1Description": "Stellen Sie sicher, dass Sie die App aus dem App Store (iOS) oder Google Play (Android) installiert haben.",
+      "item2Title": "Richten Sie Ihre Einstellungen ein",
+      "item2Description": "Wenn Sie die App zum ersten Mal öffnen, gehen Sie durch eine kurze Einführung, in der Sie die Einstellungen für das Verfolgen der Fütterung, des Schlafs und der Windelwechsel Ihres Babys vornehmen können.",
+      "item3Title": "Beginnen Sie mit der Verfolgung",
+      "item3Description": "Beginnen Sie damit, die Fütterungs-, Schlaf- und Windelwechseldaten Ihres Babys hinzuzufügen, um Meilensteine zu verfolgen."
+    },
+    "troubleshooting": {
+      "title": "Fehlerbehebung",
+      "description": "Wenn Sie auf Probleme mit der App stoßen, versuchen Sie bitte die folgenden Lösungen:",
+      "item1Title": "App wird nicht geladen",
+      "item1Description": "Versuchen Sie, die App neu zu starten. Wenn das nicht hilft, deinstallieren Sie die App und installieren Sie sie erneut aus dem App Store oder Google Play.",
+      "item2Title": "Daten werden nicht gespeichert",
+      "item2Description": "Stellen Sie sicher, dass auf Ihrem Gerät genügend Speicherplatz vorhanden ist. Wenn das Problem weiterhin besteht, wenden Sie sich bitte an den Support.",
+      "item3Title": "Verfolgungsdaten verschwinden",
+      "item3Description": "Stellen Sie sicher, dass die App über die erforderlichen Berechtigungen verfügt, um im Hintergrund zu laufen, insbesondere auf iOS."
+    },
+    "contact": {
+      "title": "Kontaktieren Sie den Support",
+      "description": "Wenn Sie keine Antwort auf Ihr Problem finden oder zusätzliche Hilfe benötigen, können Sie sich gerne an uns wenden:",
+      "emailTitle": "E-Mail",
+      "faqTitle": "Häufig gestellte Fragen",
+      "faqLinkText": "Häufig gestellte Fragen"
+    },
+    "feedback": {
+      "title": "Geben Sie uns Feedback",
+      "description": "Wir freuen uns, von unseren Nutzern zu hören! Wenn Sie Vorschläge haben oder Feedback zur App geben möchten, zögern Sie nicht, uns zu kontaktieren.",
+      "provideTitle": "Feedback geben",
+      "rateTitle": "Bewerten Sie die App",
+      "rateDescription": "Wenn Ihnen die App gefällt, hinterlassen Sie bitte eine Bewertung im App Store oder Google Play."
+    }
   }
 }
