@@ -25,7 +25,7 @@ module.exports = {
   devServer: {
     hot: true,
     historyApiFallback: true,
-    static: path.resolve(__dirname, './dist')
+    static: path.resolve(__dirname, './dist'),
   },
   module: {
     rules: [
@@ -65,6 +65,9 @@ module.exports = {
       patterns: [
         { from: 'CNAME', to: '' }, // Copy CNAME file to the root of the build directory
       ],
+    }),
+    new CopyWebpackPlugin({
+      patterns: [{ from: path.resolve(__dirname, 'public/app-ads.txt'), to: 'app-ads.txt' }],
     }),
   ],
 };
