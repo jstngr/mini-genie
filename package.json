@@ -1,6 +1,6 @@
 {
   "name": "MiniGenie",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "MiniGenie Shop",
   "main": "index.tsx",
   "author": "Tobias Justinger",
