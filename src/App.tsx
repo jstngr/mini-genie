@@ -18,7 +18,7 @@ export default function App() {
               Raising the <span>future</span>
             </span>
           </h2>
-          <Group>
+          <Group mx={'md'}>
             <Anchor component={Link} to="/support">
               Support
             </Anchor>
