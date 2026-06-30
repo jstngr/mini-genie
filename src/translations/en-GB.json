@@ -57,6 +57,51 @@
       "description": "If you have questions about this Privacy Policy, please contact us:"
     }
   },
+  "lumaPrivacyPolicy": {
+    "title": "Data Privacy Policy",
+    "lastUpdated": "Last updated: April 11, 2026",
+    "section1": {
+      "title": "1. Introduction",
+      "p1": "Welcome to Luma (\"we\", \"our\", or \"us\"). We are committed to protecting your personal information and your right to privacy. If you have any questions or concerns about this privacy notice, or our practices with regards to your personal information, please contact us.",
+      "p2": "This Privacy Policy applies to all information collected through our mobile application (\"Luma\"), and/or any related services, sales, marketing, or events."
+    },
+    "section2": {
+      "title": "2. Information We Collect",
+      "description": "We collect personal information that you voluntarily provide to us when you register on the App. The personal information that we collect depends on the context of your interactions with us and the App. The personal information we collect may include the following:",
+      "item1": "Email addresses",
+      "item2": "Authentication data (via Firebase Authentication)",
+      "item3": "App usage and tracked data (stored securely via Firebase Firestore)"
+    },
+    "section3": {
+      "title": "3. How We Use Your Information",
+      "description": "We process your information for purposes based on legitimate business interests, the fulfillment of our contract with you, compliance with our legal obligations, and/or your consent. We use the information we collect or receive to:",
+      "item1": "Facilitate account creation and logon process.",
+      "item2": "Provide and deliver the services you request continuously.",
+      "item3": "Sync your tracking data securely across devices or with your partner.",
+      "item4": "Serve targeted or non-targeted advertising to you."
+    },
+    "section4": {
+      "title": "4. Third-Party Services & Advertising (Google AdMob)",
+      "p1": "We use Google AdMob to display ads within our App. AdMob may utilize technologies such as cookies, device identifiers, and similar technologies to provide relevant ads.",
+      "p2": "In compliance with the General Data Protection Regulation (GDPR), if you are located in the European Economic Area (EEA) or the UK, we use Google's User Messaging Platform (UMP) to gather explicit consent for personalized or non-personalized advertisements before any ads are shown.",
+      "p3": "For more information on how Google uses your data, please review",
+      "googleLink": "Google's Privacy & Terms"
+    },
+    "section5": {
+      "title": "5. Data Retention & Deletion",
+      "p1": "We will only keep your personal information for as long as it is necessary for the purposes set out in this privacy notice, unless a longer retention period is required or permitted by law.",
+      "p2": "You can request to delete your account and all associated data at any time from within the App settings."
+    },
+    "section6": {
+      "title": "6. Firebase Analytics and Crashlytics",
+      "p1": "To improve the stability and usability of our App, we may use Firebase Crashlytics and Firebase Analytics. These services collect crash reports and usage data, which are anonymized and do not personally identify you."
+    },
+    "section7": {
+      "title": "7. Contact Us",
+      "description": "If you have questions or comments about this notice, you may email us at:",
+      "appName": "Luma App"
+    }
+  },
   "languageSelector": {
     "label": "Choose your language",
     "placeholder": "Select a language"

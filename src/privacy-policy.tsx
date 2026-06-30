@@ -55,7 +55,7 @@ const PrivacyPolicy = () => {
             {t('privacyPolicy.title')}
           </Title>
           <Text align="center" c="dimmed">
-            {t('privacyPolicy.effectiveDate')} <strong>{t('privacyPolicy.date')}</strong>
+            {t('privacyPolicy.effectiveDate')} <strong>${new Date().getFullYear()}</strong>
           </Text>
 
           <Divider my="lg" />
@@ -126,8 +126,8 @@ const PrivacyPolicy = () => {
           <Title order={3}>{t('privacyPolicy.section7.title')}</Title>
           <Text>
             {t('privacyPolicy.section7.description')}{' '}
-            <Anchor href="mailto:contact@mini-genie.de" target="_blank">
-              contact@mini-genie.de
+            <Anchor href="mailto:support.minigenie@gmail.com" target="_blank">
+              support.minigenie@gmail.com
             </Anchor>
           </Text>
         </Stack>

@@ -107,8 +107,8 @@ const SupportPage = () => {
           <List withPadding>
             <List.Item>
               <strong>{t('support.contact.emailTitle')}:</strong>{' '}
-              <Anchor href="mailto:contact@mini-genie.de" target="_blank">
-                contact@mini-genie.de
+              <Anchor href="mailto:support.minigenie@gmail.com" target="_blank">
+                support.minigenie@gmail.com
               </Anchor>
             </List.Item>
           </List>
@@ -121,8 +121,8 @@ const SupportPage = () => {
           <List withPadding>
             <List.Item>
               <strong>{t('support.feedback.provideTitle')}:</strong>{' '}
-              <Anchor href="mailto:contact@mini-genie.de" target="_blank">
-                contact@mini-genie.de
+              <Anchor href="mailto:support.minigenie@gmail.com" target="_blank">
+                support.minigenie@gmail.com
               </Anchor>
             </List.Item>
             <List.Item>

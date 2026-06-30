@@ -7,7 +7,7 @@ export default function Header() {
       <nav>
         <ul>
           <li>
-            <a href="mailto:contact@mini-genie.de">Contact</a>
+            <a href="mailto:support.minigenie@gmail.com">Contact</a>
           </li>
         </ul>
       </nav>

@@ -12,6 +12,7 @@ import PrivacyPolicy from 'privacy-policy';
 import { MantineProvider } from '@mantine/core';
 import '@mantine/core/styles.css';
 import SupportPage from 'support';
+import LumaPrivacyPage from 'luma-privacy-policy';
 
 const domNode = document.getElementById('root');
 const root = createRoot(domNode);
@@ -21,6 +22,7 @@ root.render(
     <HashRouter>
       <Routes>
         <Route path="/policy/*" element={<PrivacyPolicy />} />
+        <Route path="/policy-luma/*" element={<LumaPrivacyPage />} />
         <Route path="/support/*" element={<SupportPage />} />
         <Route path="*" element={<App />} />
       </Routes>

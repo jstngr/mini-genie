@@ -57,6 +57,51 @@
       "description": "Wenn Sie Fragen zu dieser Datenschutzerklärung haben, kontaktieren Sie uns bitte unter:"
     }
   },
+  "lumaPrivacyPolicy": {
+    "title": "Datenschutzerklärung",
+    "lastUpdated": "Zuletzt aktualisiert: 11. April 2026",
+    "section1": {
+      "title": "1. Einleitung",
+      "p1": "Willkommen bei Luma (\"wir\", \"unser\" oder \"uns\"). Wir sind verpflichtet, Ihre persönlichen Daten und Ihr Recht auf Datenschutz zu schützen. Bei Fragen oder Bedenken zu diesem Datenschutzhinweis oder unseren Praktiken bezüglich Ihrer persönlichen Daten wenden Sie sich bitte an uns.",
+      "p2": "Diese Datenschutzrichtlinie gilt für alle Informationen, die über unsere mobile Anwendung (\"Luma\") und/oder damit verbundene Dienste, Verkäufe, Marketing oder Veranstaltungen gesammelt werden."
+    },
+    "section2": {
+      "title": "2. Informationen, die wir erfassen",
+      "description": "Wir erfassen persönliche Informationen, die Sie uns freiwillig bereitstellen, wenn Sie sich in der App registrieren. Die von uns erfassten persönlichen Informationen hängen vom Kontext Ihrer Interaktionen mit uns und der App ab. Die von uns erfassten persönlichen Informationen können Folgendes umfassen:",
+      "item1": "E-Mail-Adressen",
+      "item2": "Authentifizierungsdaten (über Firebase Authentication)",
+      "item3": "App-Nutzung und verfolgte Daten (sicher über Firebase Firestore gespeichert)"
+    },
+    "section3": {
+      "title": "3. Wie wir Ihre Informationen verwenden",
+      "description": "Wir verarbeiten Ihre Informationen für Zwecke, die auf berechtigten Geschäftsinteressen, der Erfüllung unseres Vertrags mit Ihnen, der Einhaltung unserer gesetzlichen Verpflichtungen und/oder Ihrer Einwilligung beruhen. Wir verwenden die von uns gesammelten oder erhaltenen Informationen, um:",
+      "item1": "Kontoerstellung und Anmeldeprozess zu erleichtern.",
+      "item2": "Die von Ihnen angeforderten Dienste kontinuierlich bereitzustellen und zu liefern.",
+      "item3": "Ihre Tracking-Daten sicher geräteübergreifend oder mit Ihrem Partner zu synchronisieren.",
+      "item4": "Gezielte oder nicht gezielte Werbung an Sie zu richten."
+    },
+    "section4": {
+      "title": "4. Drittanbieterdienste & Werbung (Google AdMob)",
+      "p1": "Wir verwenden Google AdMob, um Anzeigen in unserer App anzuzeigen. AdMob kann Technologien wie Cookies, Gerätekennungen und ähnliche Technologien nutzen, um relevante Anzeigen bereitzustellen.",
+      "p2": "In Übereinstimmung mit der Datenschutz-Grundverordnung (DSGVO) verwenden wir, wenn Sie sich im Europäischen Wirtschaftsraum (EWR) oder im Vereinigten Königreich befinden, die Google User Messaging Platform (UMP), um vor der Anzeige von Werbung die ausdrückliche Einwilligung für personalisierte oder nicht personalisierte Werbung einzuholen.",
+      "p3": "Weitere Informationen zur Verwendung Ihrer Daten durch Google finden Sie unter",
+      "googleLink": "Googles Datenschutz & Nutzungsbedingungen"
+    },
+    "section5": {
+      "title": "5. Datenspeicherung & Löschung",
+      "p1": "Wir speichern Ihre persönlichen Daten nur so lange, wie es für die in diesem Datenschutzhinweis festgelegten Zwecke erforderlich ist, es sei denn, ein längerer Aufbewahrungszeitraum ist gesetzlich vorgeschrieben oder erlaubt.",
+      "p2": "Sie können jederzeit die Löschung Ihres Kontos und aller damit verbundenen Daten in den App-Einstellungen beantragen."
+    },
+    "section6": {
+      "title": "6. Firebase Analytics und Crashlytics",
+      "p1": "Um die Stabilität und Benutzerfreundlichkeit unserer App zu verbessern, können wir Firebase Crashlytics und Firebase Analytics verwenden. Diese Dienste sammeln Absturzberichte und Nutzungsdaten, die anonymisiert werden und Sie nicht persönlich identifizieren."
+    },
+    "section7": {
+      "title": "7. Kontakt",
+      "description": "Wenn Sie Fragen oder Anmerkungen zu diesem Hinweis haben, können Sie uns per E-Mail kontaktieren:",
+      "appName": "Luma App"
+    }
+  },
   "languageSelector": {
     "label": "Wählen Sie Ihre Sprache",
     "placeholder": "Sprache auswählen"

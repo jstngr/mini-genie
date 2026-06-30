@@ -67,7 +67,10 @@ module.exports = {
       ],
     }),
     new CopyWebpackPlugin({
-      patterns: [{ from: path.resolve(__dirname, 'public/app-ads.txt'), to: 'app-ads.txt' }],
+      patterns: [
+        { from: path.resolve(__dirname, 'public/app-ads.txt'), to: 'app-ads.txt' },
+        { from: path.resolve(__dirname, 'public/app-icon-no-bg.png'), to: 'luma-app-icon.png' },
+      ],
     }),
   ],
 };

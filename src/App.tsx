@@ -18,12 +18,15 @@ export default function App() {
               Raising the <span>future</span>
             </span>
           </h2>
-          <Group mx={'md'}>
+          <Group mx={'md'} fs="sm">
             <Anchor component={Link} to="/support">
               Support
             </Anchor>
             <Anchor component={Link} to="/policy">
               Privacy Policy
+            </Anchor>
+            <Anchor component={Link} to="/policy-luma">
+              Privacy Policy - Luma
             </Anchor>
           </Group>
         </section>
